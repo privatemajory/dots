@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=gcolor2
+Comment=Color chooser
+Exec=gcolor2
+Icon=/usr/share/icons/Papirus-Dark/symbolic/actions/color-select-symbolic.svg
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,25 @@
+rofi.modi:                           drun,window,run
+rofi.width:                          20
+rofi.lines:                          10
+rofi.font:                           Segoe UI 9
+rofi.bw:                             0
+rofi.location:                       7
+rofi.padding:                        20
+rofi.xoffset:                        2
+rofi.yoffset:                        -40
+rofi.show-icons:                     true
+rofi.icon-theme:                     deepin
+rofi.sidebar-mode:                   false
+rofi.eh:                             1
+rofi.line-margin:                    2
+rofi.line-padding:                   5
+rofi.separator-style:                none
+rofi.hide-scrollbar:                 true
+rofi.color-normal:                   argb:00000000, #D4D4D4, argb:00000000, argb:4CFFFFFF, #FFFFFF
+rofi.color-urgent:                   argb:00000000, #D4D4D4, argb:00000000, #FFFFFF, #FFFFFF
+rofi.color-active:                   argb:00000000, #D4D4D4, argb:00000000, argb:4CFFFFFF, #FFFFFF
+rofi.color-window:                   argb:99080808, #000000, argb:22FFFFFF
+rofi.display-window:                 Windows
+rofi.display-run:                    Command
+rofi.display-drun:                   Applications
+rofi.display-calc:                   Calculate

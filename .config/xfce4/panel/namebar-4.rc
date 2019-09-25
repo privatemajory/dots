@@ -1,0 +1,16 @@
+[Namebar]
+only_max=false
+hide_icon=true
+hide_title=false
+hide_min=true
+hide_max=true
+hide_close=true
+size=300
+expand=false
+align=0
+active_bold=false
+passive_bold=false
+custom_colors=false
+active_color=#babac3c3cfcf
+passive_color=#a9a9acacb2b2
+theme=/usr/share/namebar/themes/Default

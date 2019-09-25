@@ -1,0 +1,64 @@
+configuration {
+    theme:                          "config";
+    show-icons:                     true;
+}
+
+window {
+    height:                         100%;
+    width:                          100%;
+    location:                       southwest;
+    anchor:                         southwest;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt {
+    enabled:                        false;
+}
+
+entry  {
+    expand:                         false;
+    width:                          30em;
+    margin:                         40px 120px 20px 120px;
+}
+
+listview {
+    columns:                        6;
+    margin:                         40px 120px 40px 120px;
+}
+
+element {
+    orientation:                    vertical;
+    padding:                        8px;
+    margin:                         8px;
+}
+
+element normal.urgent, element alternate.urgent {
+    background-color:               @urgent;
+}
+
+element normal.active, element alternate.active {
+    background-color:               @background-alt;
+}
+
+element selected {
+    background-color:               @background-alt;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+}
+
+element-icon {
+    size:                           48;
+    border:                         0px;
+}
+
+element-text {
+    expand:                         true;
+    horizontal-align:               0.5;
+}

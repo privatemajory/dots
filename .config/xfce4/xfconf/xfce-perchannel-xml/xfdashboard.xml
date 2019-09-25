@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfdashboard" version="1.0">
+  <property name="theme" type="string" value="xfdashboard-auber"/>
+  <property name="favourites" type="array">
+    <value type="string" value="exo-web-browser.desktop"/>
+    <value type="string" value="exo-file-manager.desktop"/>
+    <value type="string" value="exo-terminal-emulator.desktop"/>
+  </property>
+  <property name="enabled-plugins" type="array">
+    <value type="string" value="hot-corner"/>
+    <value type="string" value="middle-click-window-close"/>
+  </property>
+</channel>

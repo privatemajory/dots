@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=drun
+Comment=Rofi drun
+Exec=rofi -theme drun -show drun
+Icon=/usr/share/icons/Papirus-Dark/symbolic/actions/view-grid-symbolic.svg
+Path=
+Terminal=false
+StartupNotify=false

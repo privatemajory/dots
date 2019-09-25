@@ -1,0 +1,27 @@
+configuration {
+    theme:                          "config";
+    show-icons:                     false;
+}
+
+window {
+    height:                         320px;
+    width:                          400px;
+    border-radius:                  3px;
+}
+
+prompt {
+    enabled:                        false;
+}
+
+entry {
+    margin:                         20px 0px 20px 0px;
+}
+
+element {
+    orientation:                    horizontal;
+    margin:                         0px;
+}
+
+element-text {
+    expand:                         true;
+}

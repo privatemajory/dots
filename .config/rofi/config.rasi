@@ -1,0 +1,59 @@
+configuration {
+    icon-theme:        "Papirus";
+    font:              "Proxima Nova Alt 9";
+}
+
+* {
+    background-color:               transparent;
+    background:                     #23262E99;
+    background-alt:                 #80808080;
+    text-color:                     #D8DEE9;
+    primary:                        #A3BE8C;
+    urgent:                         #BF616A;
+}
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+}
+
+prompt {
+    enabled:                        false;
+}
+
+entry {
+    padding:                        10px 10px;
+    background-color:               transparent;
+    border:                         0px 0px solid 1px 0px;
+    border-color:                   @text-color;
+    font:                           "Proxima Nova Alt 12";
+}
+
+mainbox {
+    padding:                        20px 40px;
+}
+
+element {
+    padding:                        8px;
+}
+
+element normal.urgent, element alternate.urgent {
+    background-color:               @urgent;
+}
+
+element normal.active, element alternate.active {
+    background-color:               @background-alt;
+}
+
+element selected {
+    background-color:               @background-alt;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+}
+
