@@ -6,8 +6,9 @@ configuration {
 * {
     background-color:               transparent;
     background:                     #23262E99;
-    background-alt:                 #80808080;
+    background-alt:                 #FFFACD80;
     text-color:                     #D8DEE9;
+    selected-text-color:            #000000;
     primary:                        #A3BE8C;
     urgent:                         #BF616A;
 }
@@ -43,10 +44,12 @@ element normal.urgent, element alternate.urgent {
 
 element normal.active, element alternate.active {
     background-color:               @background-alt;
+    color:                          @selected-text-color;
 }
 
 element selected {
     background-color:               @background-alt;
+    color:                          @selected-text-color;
 }
 
 element selected.urgent {
@@ -55,5 +58,6 @@ element selected.urgent {
 
 element selected.active {
     background-color:               @background-alt;
+    color:                          @selected-text-color;
 }
 
