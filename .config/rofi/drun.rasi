@@ -18,7 +18,7 @@ prompt {
 
 entry  {
     expand:                         false;
-    width:                          30em;
+    width:                          36em;
     margin:                         40px 120px 20px 120px;
 }
 

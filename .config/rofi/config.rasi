@@ -6,7 +6,7 @@ configuration {
 * {
     background-color:               transparent;
     background:                     #23262E99;
-    background-alt:                 #FFFACD80;
+    background-alt:                 #FFFFFF47;
     text-color:                     #D8DEE9;
     selected-text-color:            #000000;
     primary:                        #A3BE8C;
@@ -23,7 +23,7 @@ prompt {
 }
 
 entry {
-    padding:                        10px 10px;
+    padding:                        10px 10px 10px 10px;
     background-color:               transparent;
     border:                         0px 0px solid 1px 0px;
     border-color:                   @text-color;
@@ -31,7 +31,7 @@ entry {
 }
 
 mainbox {
-    padding:                        20px 40px;
+    padding:                        10px 40px 10px 40px;
 }
 
 element {
