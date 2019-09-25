@@ -42,7 +42,7 @@
       <property name="mode" type="uint" value="0"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=9;x=679;y=25"/>
+      <property name="position" type="string" value="p=6;x=355;y=49"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-color" type="array">
         <value type="uint" value="2056"/>
@@ -59,6 +59,9 @@
       <property name="background-alpha" type="uint" value="70"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="size" type="uint" value="50"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -125,9 +128,10 @@
     <property name="plugin-10" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="thunar"/>
-        <value type="string" value="flareget"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="pnmixer"/>
         <value type="string" value="redshift-gtk"/>
+        <value type="string" value="flareget"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
         <value type="string" value="guitarix"/>

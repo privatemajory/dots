@@ -106,7 +106,7 @@
     <property name="show-thumbnails" type="empty"/>
     <property name="use-custom-font-size" type="empty"/>
     <property name="font-size" type="empty"/>
-    <property name="style" type="int" value="2"/>
+    <property name="style" type="int" value="0"/>
     <property name="tooltip-size" type="empty"/>
     <property name="show-tooltips" type="empty"/>
   </property>
