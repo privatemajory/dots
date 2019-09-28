@@ -119,7 +119,7 @@ bindkey '^R'      history-incremental-pattern-search-backward
 ##
 autoload -Uz compinit
 compinit
-kitty + complete setup zsh | source /dev/stdin
+/home/dolly/.local/bin/kitty + complete setup zsh | source /dev/stdin
 zmodload -i zsh/complist        
 setopt hash_list_all            # hash everything before completion
 setopt completealiases          # complete alisases
@@ -227,6 +227,7 @@ alias vol='amixer set Master'
 alias sublime-text='/opt/sublime_text/sublime_text'
 alias st='sublime-text'
 alias icat='kitty +kitten icati'
+alias rainy="cd /home/dolly/Applications/rainy-0.5.0/ && mono Rainy.exe -c settings.conf"
 
 export GEOSERVER_HOME="/home/dolly/.local/geoserver"
 export PATH="$PATH:/home/dolly/.local/bin"

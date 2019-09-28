@@ -5,8 +5,8 @@ configuration {
 
 * {
     background-color:               transparent;
-    background:                     #23262E99;
-    background-alt:                 #FFFFFF47;
+    background:                     #2E344099;
+    background-alt:                 #E5E9F047;
     text-color:                     #D8DEE9;
     selected-text-color:            #000000;
     primary:                        #A3BE8C;
