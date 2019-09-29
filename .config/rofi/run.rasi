@@ -7,6 +7,8 @@ window {
     height:                         320px;
     width:                          320px;
     border-radius:                  3px;
+    border:                         1px 1px solid 1px 1px;
+    border-color:                   #22252B;
 }
 
 prompt {

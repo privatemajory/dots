@@ -4,12 +4,12 @@ configuration {
 }
 
 window {
-    height:                         730px; /* 768 - 38 */
+    height:                         739px;
     width:                          1366px;
-    location:                       southwest;
-    anchor:                         southwest;
+    location:                       northwest;
+    anchor:                         northwest;
     x-offset:                       0;
-    y-offset:                       -38px;
+    y-offset:                       29;
 }
 
 prompt {
