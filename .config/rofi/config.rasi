@@ -1,5 +1,5 @@
 configuration {
-    icon-theme:        "Papirus";
+    icon-theme:        "Newaita-dark";
     font:              "Proxima Nova Alt 9";
 }
 
