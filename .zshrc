@@ -226,7 +226,7 @@ alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias vol='amixer set Master'
 alias sublime-text='/opt/sublime_text/sublime_text'
 alias st='sublime-text'
-alias icat='kitty +kitten icati'
+alias icat='kitty +kitten icat'
 alias rainy="cd /home/dolly/Applications/rainy-0.5.0/ && mono Rainy.exe -c settings.conf"
 
 export GEOSERVER_HOME="/home/dolly/.local/geoserver"
