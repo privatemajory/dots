@@ -1,6 +1,6 @@
 configuration {
     icon-theme:        "Newaita-dark";
-    font:              "Proxima Nova Alt 9";
+    font:              "Proxima Nova 9";
 }
 
 * {
