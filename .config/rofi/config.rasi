@@ -25,9 +25,9 @@ prompt {
 entry {
     padding:                        10px 10px 10px 10px;
     background-color:               transparent;
-    border:                         0px 0px solid 1px 0px;
-    border-color:                   @text-color;
-    font:                           "Proxima Nova Alt 12";
+    border:                         0px 0px solid 2px 0px;
+    border-color:                   @background-alt;
+    font:                           "Proxima Nova 12";
 }
 
 mainbox {
