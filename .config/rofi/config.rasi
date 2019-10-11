@@ -1,6 +1,7 @@
 configuration {
     icon-theme:        "Newaita-dark";
     font:              "Proxima Nova 9";
+    modi:              "run,drun";
 }
 
 * {
